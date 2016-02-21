@@ -1,0 +1,33 @@
+{
+  "name": "file-up",
+  "version": "1.0.0",
+  "description": "file uploader",
+  "main": "index.js",
+  "bin": {
+    "file-up": "index.js"
+  },
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "keywords": [
+    "file",
+    "uploads",
+    "upload",
+    "uploader"
+  ],
+  "author": "Jacob Burden",
+  "license": "MIT",
+  "devDependencies": {
+    "body": "^5.1.0",
+    "tape": "^4.4.0"
+  },
+  "dependencies": {
+    "file-upload-stream": "^1.0.0",
+    "minimist": "^1.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jekrb/file-up.git"
+  },
+  "homepage": "https://github.com/jekrb/file-up"
+}
